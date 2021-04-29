@@ -7,7 +7,7 @@ public class Caso14 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		DecimalFormat df = new DecimalFormat("#.00");
+		DecimalFormat df = new DecimalFormat("##.00");
 		
 		System.out.print("Alumno..............................: ");
 		String nombre = sc.nextLine();
@@ -82,10 +82,10 @@ public class Caso14 {
        System.out.println("Alumno..................: " + nombre);
        System.out.println("Nombre de la carrera....: " + nom_carrera);
        System.out.println("Nombre del Turno........: " + nom_turno);
-       System.out.println("Monto...................: " + df.format(monto));
-       System.out.println("Descuento...............: " + df.format(descuento));
-       System.out.println("Total al pagar en S/....: " + df.format(t_final));
-       System.out.println("Total al pagar en $.....: " + df.format(t_final / 3.33f));
+       System.out.println("Monto...................: " + "S/ " +df.format(monto));
+       System.out.println("Descuento...............: " + "S/ " + descuento);
+       System.out.println("Total al pagar en S/....: " + "S/ " + df.format(t_final));
+       System.out.println("Total al pagar en $.....: " + "$/ " + df.format(t_final / 3.33f));
 
 	}
 

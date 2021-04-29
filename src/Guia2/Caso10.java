@@ -7,13 +7,13 @@ public class Caso10 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		DecimalFormat df = new DecimalFormat("#.00");
+		DecimalFormat df = new DecimalFormat("0.00");
 		
 		System.out.print("Empleado.................: ");
 		String nombre = sc.nextLine();
 		
 		System.out.print("Horas trabajadas.........: ");
-		float horas = sc.nextFloat();
+		int horas = sc.nextInt();
 		
 		System.out.print("Tarifa por horas..........: ");
 		float tarifa = sc.nextFloat();
@@ -44,11 +44,11 @@ public class Caso10 {
 		System.out.println("---R E S U L T A D O S---");
         System.out.println("---------------------------");
         System.out.println("Producto...................: " + nombre );
-        System.out.println("Horas trabajadas...........: " + horas);
-        System.out.println("Tarifa por horas...........: " + tarifa);
-        System.out.println("Importe....................: " + df.format(importe));
-        System.out.println("Bono.......................: " + df.format(bono));
-        System.out.println("Descuento..................: " + df.format(descuento));
+        System.out.println("Horas trabajadas...........: " + horas + " h");
+        System.out.println("Tarifa por horas...........: " +"S/ "+ tarifa);
+        System.out.println("Importe....................: " +"S/ "+ df.format(importe));
+        System.out.println("Bono.......................: " +"S/ "+ df.format(bono));
+        System.out.println("Descuento..................: " +"S/ "+ df.format(descuento));
         
         float alcanzado=0;
 		
