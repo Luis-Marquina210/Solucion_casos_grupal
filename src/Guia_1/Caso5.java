@@ -11,10 +11,10 @@ public class Caso5 {
 		
 		float n1 = 0, n2 = 0;
 		
-		System.out.print("Ingrese primer número:");
+		System.out.print("Ingrese primer número: ");
 		n1 = sc.nextFloat();
 		
-		System.out.print("Ingrese segundo número:");
+		System.out.print("Ingrese segundo número: ");
 		n2 = sc.nextFloat();
 		
 		float prom = (n1 + n2)/2;

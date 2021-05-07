@@ -7,10 +7,10 @@ public class Caso18 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Ingrese la altura del triángulo:");
+		System.out.print("Ingrese la altura del triángulo: ");
 		int h = sc.nextInt();
 		
-		System.out.print("Ingrese la base del triángulo:");
+		System.out.print("Ingrese la base del triángulo: ");
 		int b = sc.nextInt();
 		
 		int área = (b * h)/2;

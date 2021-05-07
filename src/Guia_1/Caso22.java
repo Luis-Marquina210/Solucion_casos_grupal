@@ -18,7 +18,7 @@ public class Caso22 {
 		System.out.print("Nota 3........: ");
 		int nota3 = sc.nextInt();
 
-		float promedio = nota1*0.2f + nota2*0.3f + nota3*0.5f;
+		float promedio = (nota1*0.2f + nota2*0.3f + nota3*0.5f);
 		
 		System.out.println("\nResultado");
 		System.out.println("-----------");
