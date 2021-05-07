@@ -27,9 +27,9 @@ public class Caso4 {
 		 promedio = suma / 5;
 		 
 		 
-		 System.out.println("------------");
-		 System.out.println("RESUSLTADOS");
-		 System.out.println("------------");
+		 System.out.println("---------------------");
+		 System.out.println("R E S U S L T A D O S");
+		 System.out.println("---------------------");
 		System.out.println("Cantidad de números pares........: " + pares);
 		System.out.println("Cantidad de números impares......: " + impares);
 		System.out.println("Promedio de los números..........: " + promedio);
