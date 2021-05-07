@@ -39,10 +39,6 @@ public class Caso4 {
 					arrPublicacion.get(x).Autor(),
 					arrPublicacion.get(x).MostrarTipo()));
 		}
-	
-		
-		
-
 	}
 
 }
