@@ -38,6 +38,8 @@ public class Publicacion {
 		this.tipo = tipo;
 	}
 	
+	// Metodos 
+	
 	public String Titulo() {
 		
 		return this.nombre;
@@ -60,8 +62,7 @@ public class Publicacion {
 			r = "Libro";
 		else if(this.tipo == 2)
 			r = "Revista";
-		else
-			r = "Otros";
+		
 		
 		return r;
 	}
